@@ -1,1 +1,2 @@
-from .text import joke
+import os, sys
+sys.path.append(os.path.abspath('.'))

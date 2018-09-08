@@ -1,4 +1,4 @@
 import sqlask
 
 def main():
-    print(sqlask.joke())
+    print("Test Done")
