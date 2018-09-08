@@ -1,3 +1,7 @@
+"""
+	Author = Venkata Sai Katepalli
+"""
+
 import sqlask
 import sys
 import os

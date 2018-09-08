@@ -7,8 +7,8 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 setup(
 	name='sqlask',
   version='0.1',
-  description='combination of sql and python package',
-  url='http://github.com/vkatepalli/sqlask',
+  description='lightweight python framework for webapplications',
+  url='http://github.com/codejunker1/sqlask',
   author='Venkata Sai Katepalli',
   author_email='venkatasaisoft@gmail.com',
   license='MIT',
