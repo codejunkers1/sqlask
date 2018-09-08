@@ -2,5 +2,5 @@ import sqlask
 
 """
 	Author = Venkata Sai Katepalli
-	creation of app will be happen here
+	creation of new project will be happen here
 """
