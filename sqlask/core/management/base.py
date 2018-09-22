@@ -35,11 +35,11 @@ class BaseCommand(object):
 
     def get_version(self):
         """
-        Return the Elask version, which should be correct for all built-in
-        Elask commands. User-supplied commands can override this method to
+        Return the Sqlask version, which should be correct for all built-in
+        Sqlask commands. User-supplied commands can override this method to
         return their own version.
         """
-        return '0.0.1'
+        return '1.0.5'
 
     def create_parser(self, prog_name, subcommand):
         """
