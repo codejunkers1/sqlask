@@ -14,7 +14,7 @@ setup(
   license='MIT',
   scripts=['sqlask/bin/sqlask'],
   entry_points = {
-      'console_scripts': ['sqlask=sqlask.core.managment:main'],
+      'console_scripts': ['sqlask=sqlask.core.management:main'],
   },
   packages=find_packages(),
   install_requires=[

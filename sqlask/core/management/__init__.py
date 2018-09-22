@@ -34,10 +34,10 @@ def load_command_class(app_name, name):
 
 def get_commands():
     """
-    Try to get all avaialble commands from elask.core 
+    Try to get all avaialble commands from sqlask.core 
     and also from installed apps
     """
-    commands = {name: 'elask.core' for name in find_commands(__path__[0])}
+    commands = {name: 'sqlask.core' for name in find_commands(__path__[0])}
     try:
         settings = import_module('settings.dev') # TODO: Need to get from env    
         for app in settings.INSTALLED_APPS:
