@@ -28,9 +28,9 @@ class Command(BaseCommand):
             loader=PackageLoader('sqlask', 'conf/templates'),
             autoescape=select_autoescape(['html', 'xml'])
         )
+        import pdb;pdb.set_trace()
         server_template = env.get_template('project/server.py.template')
         dev_template = env.get_template('project/dev.py.template')
-        zappa_template = env.get_template('project/zappa_settings.json.template')        
         # 4. Write server.py
         srvr_file = open("{0}/server.py".format(options['name']), 'w')
         srvr_file.write(server_template.render())
@@ -41,7 +41,4 @@ class Command(BaseCommand):
         dev_file = open("{0}/settings/dev.py".format(options['name']), 'w')
         dev_file.write(dev_template.render())
         dev_file.close()
-        # 6. Write zappa_settings
-        zappa_file = open("{0}/zappa_settings.json".format(options['name']), 'w')
-        init_file.close()
 
