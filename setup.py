@@ -14,11 +14,11 @@ setup(
   license='MIT',
   scripts=['sqlask/bin/sqlask'],
   entry_points = {
-      'console_scripts': ['sqlask=sqlask.core.management:main'],
+      'console_scripts': ['sqlask=sqlask.core.managment:main'],
   },
   packages=find_packages(),
   install_requires=[
-		'jinja2',
+		'markdown',
 	],
 	include_package_data=True,
 	zip_safe=False
