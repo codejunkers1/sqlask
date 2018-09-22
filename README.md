@@ -2,8 +2,8 @@
 lightweight python framework contains MYSQL, FLASK
 
 ## Commands
-- sqlask startproject
-- sqlask startapp
+- sqlask project --name <project-name>
+- sqlask app --name <app-name>
 - sqlask migrate
 - sqlask seed
 
