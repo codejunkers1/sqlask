@@ -1,3 +1,0 @@
-from elask.db import models
-
-# you can create your models here
